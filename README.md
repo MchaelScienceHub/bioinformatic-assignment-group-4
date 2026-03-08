@@ -1,67 +1,146 @@
-# Bioinformatics Assignment - Group 4
+# Bioinformatics Assignment – Group 4
 
-## Course
-ANA4315: Introduction to Bioinformatics
+## I. Project Title
+Multi-Language Bioinformatics Workflow Automation Using Bash
 
-## Project Description
-This project demonstrates a multi-language bioinformatics workflow using Bash automation.
+---
 
-Each group member contributes a script written in a different programming language.  
-All scripts print the member's information in a standardized format.
+## II. Brief Overview of Introduction to Bioinformatics
 
-A Bash workflow script runs all scripts and combines their outputs into one CSV file.
+Bioinformatics is an interdisciplinary field that integrates biology, computer science, statistics, and information technology to analyze and interpret biological data. With the rapid advancement of sequencing technologies and molecular biology research, enormous amounts of biological data are generated daily. Bioinformatics provides the computational tools and methods required to store, organize, analyze, and visualize this complex data.
 
-## Programming Languages Used
-- Python
-- R
-- JavaScript
-- Perl
-- Bash
+One of the major applications of bioinformatics is in genomics, where computational methods are used to study DNA sequences, identify genes, and understand genetic variation. It is also used in proteomics, transcriptomics, systems biology, drug discovery, and evolutionary biology. Bioinformatics tools help researchers analyze large biological datasets efficiently and derive meaningful insights that would be difficult to obtain using traditional laboratory methods alone.
 
-## Workflow Overview
-1. Each group member writes a script that prints their information.
-2. All scripts are placed inside the scripts/ directory.
-3. The Bash script run_workflow.sh runs all scripts automatically.
-4. The outputs are collected and combined into a single file output.csv.
+Programming and automation are essential components of bioinformatics. Researchers frequently use programming languages and computational workflows to automate repetitive tasks, analyze biological datasets, and ensure reproducibility of results.
 
-## Running the Workflow
+---
 
-Run the workflow using:
+## III. Description of the Assignment
 
-bash run_workflow.sh
+This project demonstrates collaborative software development and workflow automation using multiple programming languages in a bioinformatics context. Each member of the group contributed a script written in a different programming language. These scripts generate structured information about the contributors and their bioinformatics interests.
 
-## Output Artifact
+A Bash workflow script (`run_workflow.sh`) is used to automate the execution of all scripts within the repository. The workflow collects outputs from each script and combines them into a structured CSV file stored in the `artifacts` directory. This CSV file can then be used for downstream analysis or integration with other bioinformatics tools.
 
-The final output generated is:
+The main objectives of this assignment are to:
 
-artifacts/output.csv
+- Demonstrate the use of multiple programming languages in bioinformatics.
+- Implement workflow automation using Bash scripting.
+- Practice collaborative software development using GitHub.
+- Generate structured data outputs suitable for downstream analysis.
+- Develop clear and professional project documentation using Markdown.
 
-This CSV file contains the combined outputs from all group member scripts.
+---
 
-## Repository Structure
+## IV. List of Group Members
 
-bioinformatic-assignment-group-4
+1. Michael Edache  
+2. Fatima Ahmad  
+3. Arabbisayyadi  
+4. Mubarak  
+5. Aliyu  
+
+---
+
+## V. GitHub Usernames of Contributors
+
+| Name | GitHub Username |
+|-----|-----|
+| Michael Edache | MichaelScienceHub |
+| Fatima Ahmad | beentyahmad |
+| Arabbisayyadi | sayyadiarabbi-cmd |
+| Mubarak | azaremamubarak-ux |
+| Aliyu | (Aisyaku) |
+
+---
+
+## VI. Each Member’s Area of Interest in Bioinformatics
+
+| Name | Area of Interest |
+|-----|-----|
+| Michael Edache | Genomics |
+| Fatima Ahmad | Proteomics |
+| Arabbisayyadi | Transcriptomics |
+| Mubarak | Computational Biology |
+| Aliyu | Gene Ontology |
+
+---
+
+## VII. Programming Languages Used
+
+Each group member implemented their contribution using a different programming language:
+
+| Contributor | Programming Language |
+|-----|-----|
+| Michael Edache | Python |
+| Fatima Ahmad | Java |
+| Arabbisayyadi | R |
+| Mubarak | Perl |
+| Aliyu | Go |
+
+---
+
+## VIII. Repository Structurebioinformatic-assignment-group-4
+
 │
 ├── scripts/
 │   ├── michael.py
-│   ├── member2.R
-│   ├── member3.js
-│   ├── member4.pl
-│   └── member5.sh
+│   ├── Fatima.java
+│   ├── Arabbisayyadi.R
+│   ├── Mubarak.pl
+│   └── Aliyu.go
 │
 ├── artifacts/
 │   └── output.csv
 │
 ├── run_workflow.sh
-│
-└── README.md
+├── README.md
+└── .gitignore---
 
-## Group Members
-- Michael (Python)
-- Member 2 (R)
-- Member 3 (JavaScript)
-- Member 4 (Perl)
-- Member 5 (Bash)
+## Workflow Automation Using Bash
 
-## Author
-Michael – Group Leader
+The Bash script (`run_workflow.sh`) automates the execution of all scripts written in different programming languages. The workflow performs the following steps:
+
+1. Executes each script located in the `scripts` directory.
+2. Collects the output generated by each script.
+3. Appends the output into a single CSV file.
+4. Saves the combined results in the `artifacts/output.csv` file.
+
+This workflow demonstrates how Bash scripting can be used to coordinate multi-language bioinformatics analyses and automate repetitive computational tasks.
+
+---
+
+## Generating Structured Data for Downstream Analysis
+
+The final output of the workflow is a CSV file containing structured information about the contributors. The CSV format makes the data easy to integrate with other computational tools, databases, and analytical workflows commonly used in bioinformatics.
+
+Example output format:Name,Email,Slack Username,Area of Interest
+Michael,edachemichael50@gmail.com,@michael,Genomics
+Fatima,fatima@email.com,@fatima,Proteomics
+Arabbisayyadi,arabbi@email.com,@arabbi,Transcriptomics
+Mubarak,mubarak@email.com,@mubarak,Computational Biology
+Aliyu,aliyu@email.com,@aliyu,Gene Ontology
+
+## Authors
+
+This project was collaboratively developed by Group 4 for the Bioinformatics coursework assignment.
+
+### Lead Author / Project Maintainer
+- **Michael Edache** – Workflow Design, Python Script Development, Repository Management  
+  GitHub: https://github.com/MichaelScienceHub  
+  Area of Interest: Genomics
+
+### Contributors
+- **Fatima Ahmad** – Java Script Development  
+  GitHub: https://github.com/beentyahmad  
+  Area of Interest: Proteomics
+
+- **Arabbisayyadi** – R Script Development  
+  GitHub: https://github.com/sayyadiarabbi-cmd  
+  Area of Interest: Transcriptomics
+
+- **Mubarak** – Perl Script Development  
+  GitHub: https://github.com/azaremamubarak-ux  
+  Area of Interest: Computational Biology
+
+- **Aliyu** – Go Script Development  
+  Area of Interest: Gene Ontology
