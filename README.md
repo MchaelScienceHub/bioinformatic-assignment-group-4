@@ -120,9 +120,10 @@ Arabbisayyadi,arabbi@email.com,@arabbi,Transcriptomics
 Mubarak,mubarak@email.com,@mubarak,Computational Biology
 Aliyu,aliyu@email.com,@aliyu,Gene Ontology
 
+
 ## Authors
 
-This project was collaboratively developed by Group 4 for the Bioinformatics coursework assignment.
+This project was collaboratively developed by **Group 4** as part of a Bioinformatics coursework assignment for **400 Level students in the Department of Human Anatomy, Sa’adu Zungur University, Bauchi State, Nigeria**.
 
 ### Lead Author / Project Maintainer
 - **Michael Edache** – Workflow Design, Python Script Development, Repository Management  
